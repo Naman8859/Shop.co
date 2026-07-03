@@ -1,0 +1,94 @@
+.section2 {
+    padding: 80px 0px;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/* <-------------ARRIVALS-SELLINGS-------------> */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-container h1 {
+    margin-bottom: 40px;
+    font-size: clamp(35px, 4vw, 60px);
+    font-family: "League Spartan", sans-serif;
+}
+
+.card-holder {
+    width: 90%;
+    display: flex;
+    gap: 20px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+    justify-content: flex-start;
+
+}
+
+.card-holder .card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+
+}
+
+.card-img {
+    height: 300px;
+    width: 300px;
+
+    border-radius: 30px;
+    background-color: #F0EEED;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.card .name h3 {
+    font-family: "Satoshi", sans-serif;
+    font-size: 21px;
+}
+
+.card .ratings h4 {
+    font-weight: 100;
+}
+
+.card .price h3 {
+    font-family: "Satoshi-Bold", sans-serif;
+    font-size: 25px;
+}
+
+.card-button {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.card-button button {
+    border: 1px solid #E6E6E6;
+    background-color: white;
+    border-radius: 30px;
+    font-size: 20px;
+    width: 160px;
+    height: 50px;
+}
+
+.arival-breaker {
+    margin-top: 100px;
+    height: 1px;
+    background-color: #E6E6E6;
+    width: 80%;
+}
+
+.sellings {
+    margin-top: 80px;
+}

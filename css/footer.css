@@ -1,0 +1,145 @@
+.section5 {
+    height: auto;
+    width: 100%;
+    margin-top: 80px;
+    background-color: red;
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+    background-color: #F0F0F0;
+    padding-top: 40px;
+}
+
+.update {
+    width: 90%;
+    padding: 40px 40px;
+    border-radius: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.leftUpdate {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.leftUpdate h1{
+     font-size: clamp(30px, 4vw, 50px);
+     font-family: "League Spartan", sans-serif;
+     color: white;
+}
+
+.rightUpdate {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.emailDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 0 20px;
+    height: clamp(45px, 4vw, 55px);
+    width: 100%;
+    background-color: white;
+}
+
+.emailDiv img {
+    width: clamp(25px, 3vw, 30px);
+}
+
+.emailDiv input {
+    font-size: clamp(20px, 3vw, 30px);
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+}
+
+.subscribeBtn {
+    border: 1px solid black;
+    border-radius: 40px;
+    padding: 0 20px;
+    height: clamp(45px, 4vw, 55px);
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribeBtn button {
+    border: none;
+    background-color: white;
+    font-size: clamp(20px, 3vw, 30px);
+}
+
+.footerArea {
+    width: 90%;
+    padding: 40px 0px;
+    margin: auto;
+    display: flex;
+    gap: 80px;
+}
+
+.leftFooterArea{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.lfaIconGrid{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 20px;
+}
+.lfaIconGrid .icon img{
+    width: 30px;
+}
+.rightFooterArea{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.rightGrid{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.footerBreaker{
+    width: 90%;
+    height: 1px;
+    margin: auto;
+    background-color: #D8D8D8;
+}
+.footerLast{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    padding-top: 20px;
+    margin: auto;
+}
+.copyright p{
+    color: #606060;
+}
+.payments{
+    display: flex;
+    align-items: center;
+}
+

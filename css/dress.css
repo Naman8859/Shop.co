@@ -1,0 +1,97 @@
+.section3 {
+    padding: 50px 80px;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.round-container {
+     padding-inline: clamp(20px, 5vw, 80px);
+    padding-block: clamp(30px, 5vw, 80px);
+    width: 100%;
+    max-width: 1600px;
+    margin: auto;
+    height: 100%;
+    border-radius: 30px;
+    background-color: #F0F0F0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.round-heading h1{
+    font-size: clamp(40px, 4vw, 60px);
+   font-family: "League Spartan", sans-serif;
+}
+
+.dress-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.dress-grid .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.dress-grid .card img {
+    border-radius: 30px;
+}
+
+.dress-grid .card .dress-heading {
+    display: flex;
+    justify-content: start;
+}
+
+.casual {
+    grid-column: 1;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.formal {
+    grid-column: 2/ span 2;
+    border-radius: 30px;
+    background-color: white;
+
+}
+
+.party {
+    grid-column: 1/ span 2;
+    border-radius: 30px;
+    background-color: white;
+
+}
+
+.gym {
+    grid-column: 3;
+    border-radius: 30px;
+    background-color: white;
+
+}
+
+.dress-heading {
+    padding: 30px;
+    width: 50%;
+}
+
+.dress-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+}
+
+.dress-img img {
+    width: auto;
+
+}

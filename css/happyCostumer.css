@@ -1,0 +1,39 @@
+.section4{
+    height: auto;
+    width: 100%;
+    margin-top: 60px;
+}
+.happyHeading{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 80px;
+    font-size: clamp(20px, 5vw, 30px);
+  font-family: "League Spartan", sans-serif;
+  font-weight: 800;
+  
+}
+.reviewCards{
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 90%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+.revCard{
+    width: clamp(350px, 28vw, 400px);
+    min-height: clamp(180px, 18vw, 220px);
+   flex: 0 0 auto;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 40px;
+    gap: 20px;
+}

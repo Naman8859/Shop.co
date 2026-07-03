@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Satoshi";
+    src: url("./Satoshi_Complete/Fonts/OTF/Satoshi-Regular.otf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Satoshi-Bold";
+    src: url("./Satoshi_Complete/Fonts/OTF/Satoshi-Bold.otf");
+    font-weight: 800;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+:root{
+    --primary:#000;
+    --secondary:#F0F0F0;
+}
