@@ -7,20 +7,34 @@ import arrivalCards from "./components/arrivalCards.js"
 import sellingCards from "./components/sellingCards.js"
 import customerReview from "./components/customerReviews.js"
 
-document.documentElement.style.visibility = "hidden"
-document.addEventListener("DOMContentLoaded", () => {
 
-    navbar()
-    heroSection()
-    arrivalCards()
-    sellingCards()
-    marque()
-    dressGrid()
-    customerReview()
-    
-    gsap.delayedCall(0.05, ()=>{
-        document.documentElement.style.visibility = "visible"
+document.body.classList.add("loading")
+window.addEventListener("load", () => {
+
+    navbar();
+    heroSection();
+    arrivalCards();
+    sellingCards();
+    marque();
+    dressGrid();
+    customerReview();
+
+
+    const tl = gsap.timeline({
+        onComplete(){
+            document.querySelector(".preloader").remove()
+            document.body.classList.remove("loading");
+        }
     })
+  tl.to(".preloader h1", {
+        y: -30,
+        opacity: 0,
+        duration: 0.8
+    });
 
-   
-})
+    tl.to(".preloader", {
+        opacity: 0,
+        duration: 0.8
+    });
+
+});

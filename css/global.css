@@ -24,7 +24,28 @@ body {
     height: 100%;
     width: 100%;
 }
+body.loading{
+    overflow: hidden;
+}
 :root{
     --primary:#000;
     --secondary:#F0F0F0;
+}
+
+.preloader{
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #fff;
+    z-index: 999999;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.preloader h1{
+    font-family: "Satoshi-Bold";
+    font-size: clamp(40px, 7vw, 80px);
+    letter-spacing: 2px;
 }
