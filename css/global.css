@@ -23,6 +23,7 @@ html,
 body {
     height: 100%;
     width: 100%;
+    overflow-x: hidden;
 }
 
 body.loading {
@@ -35,6 +36,8 @@ body.loading {
 }
 
 .preloader {
+    transform: translateZ(0);
+    --webkit-transform:translateZ(0);
     position: fixed;
     inset: 0;
     top: 0;
