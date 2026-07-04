@@ -29,12 +29,12 @@ window.addEventListener("load", () => {
   tl.to(".preloader h1", {
         y: -30,
         opacity: 0,
-        duration: 0.8
+        duration: 1
     });
 
     tl.to(".preloader", {
         opacity: 0,
-        duration: 0.8
+        duration: 1
     });
 
 });
