@@ -8,7 +8,7 @@ import sellingCards from "./components/sellingCards.js"
 import customerReview from "./components/customerReviews.js"
 
 
-window.addEventListener("load", () => {
+document.addEventListener("DOMContentLoaded", () => {
 
     navbar()
     heroSection()
@@ -17,4 +17,6 @@ window.addEventListener("load", () => {
     marque()
     dressGrid()
     customerReview()
+
+   
 })
