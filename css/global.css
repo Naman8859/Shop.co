@@ -24,27 +24,34 @@ body {
     height: 100%;
     width: 100%;
 }
-body.loading{
+
+body.loading {
     overflow: hidden;
 }
-:root{
-    --primary:#000;
-    --secondary:#F0F0F0;
+
+:root {
+    --primary: #000;
+    --secondary: #F0F0F0;
 }
 
-.preloader{
+.preloader {
     position: fixed;
     inset: 0;
     width: 100vw;
     height: 100vh;
     background: #fff;
     z-index: 999999;
-
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.preloader h1{
+
+.preloader h1 {
     font-family: "Satoshi-Bold";
     font-size: clamp(40px, 7vw, 80px);
     letter-spacing: 2px;
