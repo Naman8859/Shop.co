@@ -17,7 +17,7 @@ window.addEventListener("load", () => {
     marque();
     dressGrid();
     customerReview();
-const tl = gsap.timeline()
+    const tl = gsap.timeline()
 
     tl.to(".preloader", {
         opacity: 0,
