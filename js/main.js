@@ -18,4 +18,13 @@ window.addEventListener("load", () => {
     dressGrid();
     customerReview();
 
+    gsap.to(".preloader", {
+        opacity: 0,
+        duration: 0.6,
+        delay: 0.2,
+        onComplete() {
+            document.querySelector(".preloader").remove();
+        }
+    });
+
 });

@@ -23,7 +23,6 @@ html,
 body {
     height: 100%;
     width: 100%;
-    overflow-x: hidden;
 }
 
 
@@ -32,7 +31,7 @@ body {
     --secondary: #F0F0F0;
 }
 
-/* .preloader{
+.preloader{
     position: fixed;
     inset: 0;
     background: #fff;
@@ -46,4 +45,4 @@ body {
     font-family: "Satoshi-Bold";
     font-size: clamp(40px, 7vw, 80px);
     letter-spacing: 2px;
-} */
+}
