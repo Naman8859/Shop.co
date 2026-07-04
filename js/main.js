@@ -7,7 +7,7 @@ import arrivalCards from "./components/arrivalCards.js"
 import sellingCards from "./components/sellingCards.js"
 import customerReview from "./components/customerReviews.js"
 
-
+document.documentElement.style.visibility = "hidden"
 document.addEventListener("DOMContentLoaded", () => {
 
     navbar()
@@ -17,6 +17,10 @@ document.addEventListener("DOMContentLoaded", () => {
     marque()
     dressGrid()
     customerReview()
+    
+    gsap.delayedCall(0.05, ()=>{
+        document.documentElement.style.visibility = "visible"
+    })
 
    
 })

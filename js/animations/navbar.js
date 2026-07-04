@@ -4,13 +4,10 @@ function navbar() {
     let mm = gsap.matchMedia()
     let hamburger = document.querySelector(".hamburger")
     let close = document.querySelector(".close")
-    gsap.set(".navbar, .comp-name, .access-area, .search, .cart-profile",{
-         y: -200,
-        opacity:0
-    })
-    tl.to(".navbar, .comp-name, .access-area, .search, .cart-profile", {
-        y: 0,
-        opacity: 1,
+
+    tl.from(".navbar, .comp-name, .access-area, .search, .cart-profile", {
+        y: -200,
+        opacity: 0,
         stagger: 0.1,
         delay: 1,
         duration: 0.8,
