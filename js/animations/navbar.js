@@ -9,7 +9,7 @@ function navbar() {
         y: -200,
         opacity: 0,
         stagger: 0.1,
-        delay: 0,
+        delay: 1,
         duration: 0.8,
         ease: "power2.out"
     }, "-1")

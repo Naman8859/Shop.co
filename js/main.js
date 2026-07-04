@@ -17,11 +17,12 @@ window.addEventListener("load", () => {
     marque();
     dressGrid();
     customerReview();
+const tl = gsap.timeline()
 
-    gsap.to(".preloader", {
+    tl.to(".preloader", {
         opacity: 0,
-        duration: 0.6,
-        delay: 0.2,
+        duration: 1,
+        delay: 1,
         onComplete() {
             document.querySelector(".preloader").remove();
         }
