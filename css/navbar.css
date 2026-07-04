@@ -1,19 +1,71 @@
+.section1 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.slider {
+    height: 100%;
+    width: clamp(230px, 40vw, 500px);
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    padding: 24px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    position: fixed;
+    transform: translateX(-100%);
+}
+
+.slider .close {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 30px 10px;
+}
+
+.slider .close img {
+    width: clamp(20px, 4vw, 30px);
+}
+
+.slider-access-area {
+    margin-top: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.slider-access-area h4 {
+    font-size: clamp(30px, 3vw, 60px);
+    text-align: left;
+}
+
 .navbar {
     width: 90%;
     max-width: 1600px;
     display: flex;
-    margin:auto;
+    margin: auto;
     align-items: center;
     justify-content: space-around;
     padding: 40px 0;
 }
 
-.comp-name h1 {
+.div .comp-name h1 {
     font-size: 50px;
 }
-.mob{
+
+.mob {
     width: clamp(10px, 2vw, 30px);
 }
+
 .access-area {
     display: flex;
     align-items: center;

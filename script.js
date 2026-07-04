@@ -242,7 +242,6 @@ function arrivalCards() {
 
     ]
 
-
     let cards = document.querySelector(".arrivals-card")
 
     cardData.forEach(item => {
