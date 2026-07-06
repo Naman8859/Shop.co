@@ -27,7 +27,13 @@ function arrivalCards() {
             const id = card.dataset.id
             console.log(id)
 
-            window.location.href = "/html/productPage.html?id=" + id;
+            const url = "/html/productPage.html?id=" + id;
+
+        console.log(url);
+
+        alert(url);
+
+        window.location.href = url;
 
         })
     }))
