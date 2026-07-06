@@ -29,10 +29,6 @@ function arrivalCards() {
 
             const url = "/html/productPage.html?id=" + id;
 
-        console.log(url);
-
-        alert(url);
-
         window.location.href = url;
 
         })
