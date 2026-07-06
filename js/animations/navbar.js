@@ -25,6 +25,23 @@ function navbar() {
             x:"-100%"
         })
     })
+
+    gsap.utils.toArray(".access-area h4").forEach((item)=>{
+        item.addEventListener("mouseenter", ()=>{
+            gsap.to(item,{
+                scale:1.2,
+                duration:0.2,
+                color: "red"
+            })
+        })
+         item.addEventListener("mouseleave", ()=>{
+            gsap.to(item,{
+                scale:1,
+                duration:0.2,
+                color:"black"
+            })
+        })
+    })
 }
 
 export default navbar

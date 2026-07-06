@@ -61,6 +61,7 @@
 }
 
 .emailDiv input {
+    width: 100%;
     font-size: clamp(20px, 3vw, 30px);
     border: none;
     outline: none;

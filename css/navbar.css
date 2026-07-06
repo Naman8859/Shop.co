@@ -6,7 +6,7 @@
 
 .slider {
     height: 100%;
-    width: clamp(230px, 40vw, 500px);
+    width: clamp(250px, 40vw, 500px);
     background: rgba(255, 255, 255, 0.15);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
@@ -73,6 +73,7 @@
 }
 
 .access-area h4 {
+    cursor: pointer;
     font-size: 20px;
     font-weight: 100;
 }
@@ -98,6 +99,12 @@
     background-color: #F0F0F0;
     outline: none;
 }
+.desktop-search{
+    padding-top: 5px;
+    width: 25px;
+    object-fit: cover;
+    object-position: center;
+}
 
 select {
     border: none;
@@ -110,4 +117,9 @@ select {
 
 .search-icon {
     display: none;
+}
+
+.cart-profile{
+    display: flex;
+    gap: 13px;
 }
