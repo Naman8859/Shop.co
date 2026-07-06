@@ -1,0 +1,23 @@
+.productSection{
+    height: 100vh;
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+}
+.productImages{
+    width: 50%;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.productDetails{
+    width: 50%;
+    background-color: aqua;
+}
+.prodHead h1{
+    font-family: "League Spartan";
+    font-weight: 800;
+    font-size: clamp(20px, 4vw, 55px);
+}

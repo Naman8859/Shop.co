@@ -1,0 +1,45 @@
+@media (max-width:1469px) {
+    .hamburger {
+        display: flex;
+    }
+
+    .access-area {
+        display: none;
+    }
+
+    .search-icon {
+        display: flex;
+    }
+     .mob{
+        width:  clamp(22px, 3vw, 32px);
+    }
+
+    .search {
+        display: none;
+    }
+
+    .cart-profile {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .comp-name {
+        display: flex;
+        align-items: center;
+        gap: 40px;
+    }
+
+    .comp-name h1 {
+        font-size:clamp(30px, 6vw, 70px)
+    }
+
+    .hamburger img {
+        width: clamp(20px, 3vw, 60px);
+        height: clamp(20px, 3vw, 60px);
+    }
+     .navbar {
+        padding: 20px 0;
+    }
+}
+

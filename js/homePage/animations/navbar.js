@@ -12,7 +12,7 @@ function navbar() {
         delay: 1,
         duration: 0.8,
         ease: "power2.out"
-    }, "-1")
+    })
 
     hamburger.addEventListener("click", ()=>{
         gsap.to(".slider",{

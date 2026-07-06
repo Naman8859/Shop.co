@@ -6,7 +6,7 @@ function arrivalCards() {
 
     arrivalData.forEach(item => {
         cards.innerHTML += `
-    <div class="card">
+    <div class="card" data-id="${item.id}">
                     <div class="img card-img" style = background-image:url(${item.image})>
                     </div>
                     <div class="name">
@@ -21,6 +21,16 @@ function arrivalCards() {
                 </div>
     `
     })
+
+    document.querySelectorAll(".card").forEach((card=>{
+        card.addEventListener("click",()=>{
+            const id = card.dataset.id
+            console.log(id)
+
+            window.location.href = `productPage.html?id=${id}`
+
+        })
+    }))
 
     gsap.from(".arrivals h1", {
         y: -100,
