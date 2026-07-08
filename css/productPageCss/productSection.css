@@ -1,23 +1,91 @@
 .productSection{
-    height: 100vh;
+    height:auto;
     width: 90%;
-    margin: 20px auto;
+    margin: 40px auto;
     display: flex;
     justify-content: center;
 }
 .productImages{
     width: 50%;
-    background-color: blueviolet;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
+}
+.verticalSlider{
+    width: 30%;
+    height: 400PX;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    overflow-y: scroll;
+    gap: 20px;
+    scrollbar-width: none;
+}
+.verticalSlider .verCard img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    object-fit: contain;
+}
+.card{
+     aspect-ratio: 1;
+    width: min(100%, 430px);
+    height: 400px;
+    background: #F4F4F5;
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    overflow: hidden;
+}
+.card img{
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  object-fit: contain;
 }
 .productDetails{
     width: 50%;
-    background-color: aqua;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 40px;
 }
 .prodHead h1{
     font-family: "League Spartan";
     font-weight: 800;
     font-size: clamp(20px, 4vw, 55px);
+}
+.prodPrice{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.prodPrice h2{
+    font-size: 32px;
+}
+.prodPrice .acctualPrice h2{
+    text-decoration: line-through;
+    color: #B3B3B3;
+}
+.prodPrice .discountAppl{
+    background-color: #FFEBEB;
+    width: 70px;
+    border-radius: 20px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.prodPrice .discountAppl h3{
+    color: #FF3333;
+}
+.prodDesc p{
+    font-size: 18px;
+
+    color: #666666;
 }

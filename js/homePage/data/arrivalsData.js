@@ -1,8 +1,12 @@
     const arrivalData = [
         {
             id: 1,
-            image: "../assets/ArrivalCardImages/tshirt.png",
-            name: "T-shirt with Tape Details",
+            image: "../assets/ArrivalCardImages/T-shirt/frontView.png",
+            frontImg:"../assets/ArrivalCardImages/T-shirt/frontView.png",
+            sideImg:"../assets/ArrivalCardImages/T-shirt/sideView.png",
+            personImg:"../assets/ArrivalCardImages/T-shirt/personView.png",
+            backImg:"../assets/ArrivalCardImages/T-shirt/backView.png",
+            name: "Urban Harvest Graphic T-Shirt",
             ratings: "4.5/5",
             price: `$${120}`
         },
@@ -10,21 +14,21 @@
         {
             id: 2,
             image: "../assets/ArrivalCardImages/jeans1.png",
-            name: "T-shirt with Tape Details",
+            name: "Slim Fit Blue Denim Jeans",
             ratings: "4.5/5",
             price: `$${120}`
         },
         {
             id: 3,
             image: "../assets/ArrivalCardImages/shirt.png",
-            name: "T-shirt with Tape Details",
+            name: "Red & Navy Plaid Flannel Shirt",
             ratings: "4.5/5",
             price: `$${120}`
         },
         {
             id: 4,
             image: "../assets/ArrivalCardImages/stripedTshirt.png",
-            name: "T-shirt with Tape Details",
+            name: "Orange Pinstripe Raglan T-Shirt",
             ratings: "4.5/5",
             price: `$${120}`
         },
