@@ -18,12 +18,12 @@
 .verticalSlider {
     width: 30%;
     height: 500px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     overflow-y: scroll;
-    gap: 20px;
     scrollbar-width: none;
+    scroll-behavior: smooth;
+    gap: 20px;
 }
 
 .verCard {
@@ -75,7 +75,7 @@
 .prodHead h1 {
     font-family: "League Spartan";
     font-weight: 800;
-    font-size: clamp(20px, 4vw, 49px);
+    font-size: clamp(20px, 7vw, 49px);
 }
 
 .prodPrice {
@@ -172,13 +172,15 @@
     align-items: start;
     gap: 20px;
 }
-.sizes{
+
+.sizes {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
 }
-.size{
+
+.size {
     width: 90px;
     height: 40px;
     border-radius: 30px;
@@ -189,18 +191,19 @@
     cursor: pointer;
 }
 
-.size.active{
+.size.active {
     background-color: black;
     color: white;
 }
 
-.addToCart{
+.addToCart {
     display: flex;
     width: 100%;
     align-items: center;
     gap: 20px;
 }
-.increDecBtn{
+
+.increDecBtn {
     width: 150px;
     height: 50px;
     border-radius: 30px;
@@ -210,14 +213,18 @@
 
     justify-content: space-evenly;
 }
-.counter{
+
+.counter {
     font-size: 15px;
 }
-.minus, .plus{
+
+.minus,
+.plus {
     cursor: pointer;
     font-size: 30px;
 }
-.addToCartBtn{
+
+.addToCartBtn {
     width: 450px;
     background-color: black;
     height: 50px;
@@ -228,4 +235,56 @@
     color: white;
 }
 
+@media (max-width:1469px) {
+    .productSection {
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 30px;
+    }
 
+    .productImages {
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+  .verCard{
+    flex: 0 0 180px;   /* ya jitni width chahiye */
+    height: 180px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.verticalSlider{
+    flex-direction: row;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    height: 200px;
+}
+
+    .verCard {
+        background-color: #F4F4F4;
+    }
+    .card{
+        height: 65vw;
+        width: 80%;
+        margin: auto;
+        order: -1;
+    }
+    .productDetails{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .prodHead{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}
