@@ -1,11 +1,11 @@
     const arrivalData = [
         {
             id: 1,
-            image: "../assets/ArrivalCardImages/T-shirt/frontView.png",
-            frontImg:"../assets/ArrivalCardImages/T-shirt/frontView.png",
-            sideImg:"../assets/ArrivalCardImages/T-shirt/sideView.png",
-            personImg:"../assets/ArrivalCardImages/T-shirt/personView.png",
-            backImg:"../assets/ArrivalCardImages/T-shirt/backView.png",
+            image: "../assets/ArrivalCardImages/T-shirt/MutedOliveT-Shirt/frontView.png",
+            frontImg:"../assets/ArrivalCardImages/T-shirt/MutedOliveT-Shirt/frontView.png",
+            sideImg:"../assets/ArrivalCardImages/T-shirt/MutedOliveT-Shirt/sideView.png",
+            personImg:"../assets/ArrivalCardImages/T-shirt/MutedOliveT-Shirt/personView.png",
+            backImg:"../assets/ArrivalCardImages/T-shirt/MutedOliveT-Shirt/backView.png",
             name: "Urban Harvest Graphic T-Shirt",
             ratings: "4.5/5",
             price: `$${120}`
@@ -13,7 +13,11 @@
 
         {
             id: 2,
-            image: "../assets/ArrivalCardImages/jeans1.png",
+            image: "../assets/ArrivalCardImages/T-shirt/DenimBlueJeans/frontView.png",
+             frontImg:"../assets/ArrivalCardImages/T-shirt/DenimBlueJeans/frontView.png",
+            sideImg:"../assets/ArrivalCardImages/T-shirt/DenimBlueJeans/sideView.png",
+            personImg:"../assets/ArrivalCardImages/T-shirt/DenimBlueJeans/personView.png",
+            backImg:"../assets/ArrivalCardImages/T-shirt/DenimBlueJeans/backView.png",
             name: "Slim Fit Blue Denim Jeans",
             ratings: "4.5/5",
             price: `$${120}`
