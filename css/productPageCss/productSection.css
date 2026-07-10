@@ -1,37 +1,52 @@
-.productSection{
-    height:auto;
+.productSection {
+    height: auto;
     width: 90%;
     margin: 40px auto;
     display: flex;
     justify-content: center;
 }
-.productImages{
+
+.productImages {
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
+    height: 100%;
 }
-.verticalSlider{
+
+.verticalSlider {
     width: 30%;
-    height: 400PX;
+    height: 500px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     overflow-y: scroll;
     gap: 20px;
     scrollbar-width: none;
 }
-.verticalSlider .verCard img{
+
+.verCard {
+    border: 2px solid transparent;
+    border-radius: 20px;
+    transition: .3s;
+}
+
+.verCard.active {
+    border: 2px solid black;
+}
+
+.verticalSlider .verCard img {
     width: 100%;
     height: 100%;
     border-radius: 30px;
     object-fit: contain;
 }
-.card{
-     aspect-ratio: 1;
+
+.card {
+    aspect-ratio: 1;
     width: min(100%, 430px);
-    height: 400px;
+    height: 500px;
     background: #F4F4F5;
     border-radius: 30px;
 
@@ -41,37 +56,44 @@
 
     overflow: hidden;
 }
-.card img{
-  width: 100%;
-  height: 100%;
-  border-radius: 30px;
-  object-fit: contain;
+
+.card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+    object-fit: contain;
 }
-.productDetails{
+
+.productDetails {
     width: 50%;
     display: flex;
     align-items: start;
     flex-direction: column;
-    gap: 40px;
+    gap: 20px;
 }
-.prodHead h1{
+
+.prodHead h1 {
     font-family: "League Spartan";
     font-weight: 800;
-    font-size: clamp(20px, 4vw, 55px);
+    font-size: clamp(20px, 4vw, 49px);
 }
-.prodPrice{
+
+.prodPrice {
     display: flex;
     align-items: center;
     gap: 20px;
 }
-.prodPrice h2{
+
+.prodPrice h2 {
     font-size: 32px;
 }
-.prodPrice .acctualPrice h2{
+
+.prodPrice .acctualPrice h2 {
     text-decoration: line-through;
     color: #B3B3B3;
 }
-.prodPrice .discountAppl{
+
+.prodPrice .discountAppl {
     background-color: #FFEBEB;
     width: 70px;
     border-radius: 20px;
@@ -79,13 +101,131 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
-.prodPrice .discountAppl h3{
+
+.prodPrice .discountAppl h3 {
     color: #FF3333;
 }
-.prodDesc p{
-    font-size: 18px;
 
+.prodDesc p,
+.selectHead p,
+.sizeHead p {
+    font-size: 18px;
     color: #666666;
 }
+
+.prodSecBreaker {
+    width: 100%;
+    height: 1px;
+    background-color: #E6E6E6;
+}
+
+.selectColors {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.colors {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+
+}
+
+.color {
+
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brown {
+    background-color: #6B6847;
+}
+
+.green {
+    background-color: #314F4A;
+}
+
+.purple {
+    background-color: #31344F;
+}
+
+.tick {
+    display: none;
+}
+
+.color.active .tick {
+    display: block;
+}
+
+.chooseSize {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.sizes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.size{
+    width: 90px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: #F0F0F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.size.active{
+    background-color: black;
+    color: white;
+}
+
+.addToCart{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+}
+.increDecBtn{
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #F0F0F0;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-evenly;
+}
+.counter{
+    font-size: 15px;
+}
+.minus, .plus{
+    cursor: pointer;
+    font-size: 30px;
+}
+.addToCartBtn{
+    width: 450px;
+    background-color: black;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    color: white;
+}
+
+
