@@ -17,7 +17,7 @@
 
 .verticalSlider {
     width: 30%;
-    height: 500px;
+    height: 550px;
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
@@ -46,7 +46,7 @@
 .card {
     aspect-ratio: 1;
     width: min(100%, 430px);
-    height: 500px;
+    height: 550px;
     background: #EFF0EF;
     border-radius: 30px;
 
