@@ -1,0 +1,91 @@
+.productReviewSection{
+    width: 90%;
+    margin: auto;
+    height: auto;
+}
+
+.rating-review{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rating-review h1{
+    text-decoration: underline;
+}
+.allReviews{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.filter-write{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.filterIcon{
+    background-color: #F0F0F0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.filterIcon img{
+    object-fit: contain;
+    object-position: center;
+    height: 30px;
+    width: 30px;
+}
+
+.dropDown{
+    background-color: #F0F0F0;
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+}
+.dropDown select{
+    background: none;
+}
+.writeReview{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    color: white;
+    background-color: black;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.reviewCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.revCard{
+    
+    border-radius: 30px;
+    border: 1px solid #E6E6E6;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px 40px;
+    gap: 20px;
+}
+@media (max-width:1469px) {
+
+    .reviewCards{
+        grid-template-columns: 1fr;
+    }
+}

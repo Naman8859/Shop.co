@@ -1,11 +1,13 @@
 import navbar from "./animations/navbar.js"
 import productSection from "./components/productSection.js"
+import reviewCards from "./components/reviewCards.js";
 
 
 window.addEventListener("load", () => {
 
     navbar();
     productSection()
+    reviewCards()
     const tl = gsap.timeline()
 
     tl.to(".preloader", {
