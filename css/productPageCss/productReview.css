@@ -90,6 +90,13 @@
     padding: 20px 40px;
     gap: 20px;
 }
+.revDesc p{
+    color: #666666;
+}
+.date p{
+    color: #666666;
+    font-weight: 600;
+}
 @media (max-width:1469px) {
 
     .reviewCards{
