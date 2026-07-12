@@ -97,6 +97,23 @@
     color: #666666;
     font-weight: 600;
 }
+.loadMore{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.load{
+    border: 1px solid black;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+}
+.load h1{
+    font-size: clamp(15px, 4vw, 16px);
+}
 @media (max-width:1469px) {
 
     .reviewCards{
