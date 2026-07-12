@@ -1,43 +1,48 @@
-# 🛍️ Shop.co – Modern E-Commerce Frontend
+# 🛍️ Shop.co - Modern E-Commerce Frontend
 
-A modern and fully responsive e-commerce website built using **HTML**, **CSS**, **JavaScript**, and **GSAP**. This project was created to strengthen my frontend development skills, practice responsive layouts, and explore smooth web animations using GSAP.
+A modern, responsive, and animation-rich e-commerce website built using **HTML5**, **CSS3**, **JavaScript (ES6 Modules)**, and **GSAP**.
 
-> **Note:** This is a frontend-only project created for learning and UI/UX practice. No backend or database has been integrated.
+This project was developed to improve my frontend development skills by recreating a modern e-commerce user interface with clean code architecture, responsive layouts, reusable components, and smooth animations.
+
+> **Note:** This is a frontend-only project created for learning and practice purposes. No backend, database, or authentication system has been implemented.
 
 ---
 
 ## 🚀 Live Demo
 
-🔗 **Website:** https://rococo-moxie-c1e626.netlify.app/
+🔗 **Live Website**
+https://rococo-moxie-c1e626.netlify.app/
 
 ---
 
-## 📸 Preview
+# 📸 Preview
 
-> Add screenshots of your homepage and product page here.
+### Home Page
 
-```
-/assets/screenshots/homepage.png
-/assets/screenshots/product-page.png
-```
+(Add Screenshot)
+
+### Product Page
+
+(Add Screenshot)
 
 ---
 
 # ✨ Features
 
-* Modern and clean e-commerce UI
-* Fully responsive design
-* Smooth GSAP animations
-* Animated hero section
-* Infinite brand marquee
-* Product listing section
-* Product details page
-* Customer reviews section
-* Newsletter subscription section
-* Clean navigation bar
-* Mobile-friendly layout
-* Modular project structure
-* Optimized assets and reusable components
+- Modern E-Commerce UI
+- Fully Responsive Design
+- Smooth GSAP Animations
+- ScrollTrigger Effects
+- Animated Hero Section
+- Infinite Brand Marquee
+- Product Listing Section
+- Product Details Page
+- Customer Reviews
+- Newsletter Subscription Section
+- Responsive Navigation Bar
+- Mobile-Friendly Layout
+- Reusable JavaScript Components
+- Modular Code Structure
 
 ---
 
@@ -45,30 +50,35 @@ A modern and fully responsive e-commerce website built using **HTML**, **CSS**, 
 
 ### Frontend
 
-* HTML5
-* CSS3
-* JavaScript (ES6)
+- HTML5
+- CSS3
+- JavaScript (ES6)
 
 ### Animation
 
-* GSAP (GreenSock Animation Platform)
-* ScrollTrigger
+- GSAP
+- ScrollTrigger
 
-### Development Tools
+### Tools
 
-* Visual Studio Code
-* Git
-* GitHub
-* Netlify
+- Visual Studio Code
+- Git
+- GitHub
+- Netlify
 
 ---
 
-# 📁 Project Structure
+# 📂 Project Structure
 
-```
-Shop.co/
+```text
+Shop.co
 │
 ├── assets/
+│   ├── ArrivalCardImages/
+│   ├── SellingCardImages/
+│   ├── ProductPage/
+│   ├── DressStyle/
+│   └── Icons
 │
 ├── css/
 │   ├── homePageCss/
@@ -79,85 +89,126 @@ Shop.co/
 │   └── productPage.html
 │
 ├── js/
-│   ├── animations/
-│   ├── components/
-│   ├── data/
-│   └── main.js
+│   ├── homePage/
+│   │   ├── animations/
+│   │   ├── components/
+│   │   ├── data/
+│   │   ├── gsap/
+│   │   ├── utils/
+│   │   └── main.js
+│   │
+│   └── productPage/
+│       ├── animations/
+│       ├── components/
+│       ├── data/
+│       ├── gsap/
+│       ├── utils/
+│       └── main.js
 │
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-# 🎯 What I Learned
+# 🎯 Project Goals
 
-During this project I practiced and improved my understanding of:
+The purpose of this project was to:
 
-* Responsive Web Design
-* CSS Flexbox & Grid
-* Advanced CSS Styling
-* JavaScript DOM Manipulation
-* ES6 Modules
-* GSAP Animations
-* ScrollTrigger
-* Component-based file organization
-* Clean folder structure
-* Performance optimization
-* Git & GitHub workflow
+- Practice modern frontend development.
+- Improve responsive web design skills.
+- Learn GSAP animations and ScrollTrigger.
+- Organize large frontend projects using a modular folder structure.
+- Build reusable JavaScript components.
+- Prepare for future full-stack development with React and Spring Boot.
+
+---
+
+# 🧠 What I Learned
+
+While building this project, I gained hands-on experience with:
+
+- Responsive Web Design
+- CSS Flexbox & Grid
+- Modern CSS Layout Techniques
+- JavaScript DOM Manipulation
+- ES6 Modules
+- Component-Based Development
+- Reusable Data Management
+- GSAP Timelines
+- ScrollTrigger Animations
+- Code Organization
+- Git & GitHub Workflow
 
 ---
 
 # 📌 Future Improvements
 
-Although this project is complete as a frontend practice project, the following features can be added in the future:
+This project currently focuses only on the frontend.
 
-* User Authentication
-* Shopping Cart
-* Wishlist
-* Product Search
-* Product Filtering
-* Payment Gateway
-* Order Management
-* Backend Integration
-* Database Connectivity
-* Admin Dashboard
+Future enhancements may include:
 
----
-
-# 🎯 Project Purpose
-
-The primary goal of this project was **not** to build a production-ready e-commerce website.
-
-Instead, it was developed to:
-
-* Practice modern frontend development.
-* Improve UI implementation skills.
-* Learn and experiment with GSAP animations.
-* Build a responsive multi-page website using vanilla HTML, CSS, and JavaScript.
-* Prepare for building larger full-stack applications using React and Spring Boot.
+- User Authentication
+- Shopping Cart
+- Wishlist
+- Product Search
+- Product Filters
+- User Accounts
+- Payment Gateway
+- Order Management
+- Backend Integration
+- Database Connectivity
+- Admin Dashboard
 
 ---
 
-# 📚 Next Goal
+# 🚀 Next Step
 
-My next step is to learn:
+This project marks the completion of my frontend learning phase.
 
-* Java Backend
-* Spring Boot
-* REST APIs
-* MySQL
-* React
-* Full Stack Development
+My next goal is to learn:
 
-After completing my backend journey, I plan to build a complete full-stack e-commerce application using **React**, **Spring Boot**, and **MySQL**.
+- Java Backend
+- MySQL
+- JDBC
+- Spring Boot
+- REST APIs
+- Spring Security
+- JWT Authentication
+
+After completing backend development, I plan to rebuild this project as a **full-stack e-commerce application** using **React**, **Spring Boot**, and **MySQL**.
 
 ---
 
-# 🤝 Contributing
+# 💻 Run Locally
 
-This project is a personal learning project, but suggestions and feedback are always welcome.
+Clone the project
 
-If you find any bugs or have ideas for improvements, feel free to open an issue or submit a pull request.
+```bash
+git clone https://github.com/your-username/Shop.co.git
+```
+
+Open the project folder
+
+```bash
+cd Shop.co
+```
+
+Open
+
+```text
+html/homePage.html
+```
+
+using Live Server in VS Code.
+
+---
+
+# 🤝 Feedback
+
+Suggestions, improvements, and feedback are always welcome.
+
+If you find any bugs or have ideas for improving the project, feel free to open an issue or submit a pull request.
 
 ---
 
@@ -165,12 +216,16 @@ If you find any bugs or have ideas for improvements, feel free to open an issue 
 
 **Naman Singh Chauhan**
 
-GitHub: https://github.com/your-username
+GitHub:
+https://github.com/your-username
 
-LinkedIn: https://www.linkedin.com/in/your-linkedin-profile/
+LinkedIn:
+https://linkedin.com/in/your-profile
 
 ---
 
-## ⭐ If you like this project
+## ⭐ Support
 
-If you found this project interesting, consider giving it a **⭐ Star** on GitHub. It motivates me to build more projects and continue improving my development skills.
+If you like this project, consider giving it a **Star ⭐** on GitHub.
+
+It motivates me to keep learning, building, and sharing more projects.
