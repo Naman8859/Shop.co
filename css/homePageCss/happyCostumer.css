@@ -1,19 +1,21 @@
-.section4{
+.section4 {
     height: auto;
     width: 100%;
     margin-top: 60px;
 }
-.happyHeading{
+
+.happyHeading {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     padding-left: 80px;
     font-size: clamp(20px, 5vw, 30px);
-  font-family: "League Spartan", sans-serif;
-  font-weight: 800;
-  
+    font-family: "League Spartan", sans-serif;
+    font-weight: 800;
+
 }
-.reviewCards{
+
+.reviewCards {
     margin: 40px auto;
     display: flex;
     align-items: center;
@@ -25,10 +27,11 @@
     scroll-behavior: smooth;
     scrollbar-width: none;
 }
-.revCard{
+
+.revCard {
     width: clamp(350px, 28vw, 400px);
-    min-height: clamp(180px, 18vw, 220px);
-   flex: 0 0 auto;
+    height: clamp(180px, 18vw, 220px);
+    flex: 0 0 auto;
     border: 2px solid black;
     border-radius: 20px;
     display: flex;
