@@ -1,78 +1,69 @@
 # 🛍️ Shop.co
 
-<p align="center">
-  <h1 align="center">Modern E-Commerce Frontend</h1>
-  <p align="center">
-    Built with HTML5 • CSS3 • JavaScript (ES6 Modules) • GSAP
-  </p>
-</p>
+<div align="center">
 
-<p align="center">
+# Modern E-Commerce Frontend
+
+### A premium, responsive and animation-rich fashion e-commerce frontend built with **HTML5**, **CSS3**, **JavaScript (ES6 Modules)** and **GSAP**.
+
+<p>
+<a href="https://rococo-moxie-c1e626.netlify.app/">🌐 Live Demo</a> •
+<a href="https://github.com/Naman8859/Shop.co">💻 Repository</a>
+</p>
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white)
-![Netlify](https://img.shields.io/badge/Hosted-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-success?style=for-the-badge)
+![Netlify](https://img.shields.io/badge/Hosted%20on-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
-</p>
-
----
-
-## 📖 About
-
-**Shop.co** is a modern, responsive and animation-rich e-commerce frontend inspired by premium fashion websites.
-
-The project focuses on building a realistic shopping experience using reusable JavaScript modules, scalable folder architecture, responsive layouts and smooth GSAP animations.
-
-> **Frontend Only** – No backend, authentication or database is included.
+</div>
 
 ---
 
-# 🌐 Live Demo
+# 📖 About The Project
 
-**Website:** https://rococo-moxie-c1e626.netlify.app/
+**Shop.co** is a modern fashion e-commerce frontend inspired by premium online shopping experiences.
 
----
+The project focuses on creating a polished user interface with responsive layouts, reusable JavaScript modules, scalable architecture and smooth GSAP-powered animations. It was built as a portfolio project to strengthen my frontend development skills before moving into full-stack development.
 
-# 📑 Table of Contents
-
-- About
-- Preview
-- Features
-- Tech Stack
-- Folder Structure
-- Project Highlights
-- Learning Outcomes
-- Future Improvements
-- Roadmap
-- Run Locally
-- Author
+> ⚠️ Frontend only — no backend, authentication, payment system or database is included.
 
 ---
 
-# 📸 Preview
+# ✨ Why I Built This Project
 
-## Home Page
+- Practice real-world frontend architecture
+- Improve responsive UI development
+- Learn GSAP & ScrollTrigger
+- Organize large projects using ES6 Modules
+- Prepare for React & Spring Boot development
+
+---
+
+# 📸 Project Showcase
+
+## 🏠 Home Page
 
 | Hero | New Arrivals |
-|------|------|
+|:--:|:--:|
 | ![](assets/preview/home-1.png) | ![](assets/preview/home-2.png) |
 
-| Top Selling | Browse by Style |
-|------|------|
+| Top Selling | Browse by Dress Style |
+|:--:|:--:|
 | ![](assets/preview/home-3.png) | ![](assets/preview/home-4.png) |
 
-### Reviews & Footer
+### Customer Reviews
 
 ![](assets/preview/home-5.png)
 
 ---
 
-## Product Page
+## 🛒 Product Page
 
-| Product | Reviews |
-|------|------|
+| Product Details | Reviews |
+|:--:|:--:|
 | ![](assets/preview/product-1.png) | ![](assets/preview/product-2.png) |
 
 ### Footer
@@ -81,114 +72,122 @@ The project focuses on building a realistic shopping experience using reusable J
 
 ---
 
-# ✨ Features
+# 🚀 Key Features
 
 ### 🏠 Home
-
 - Responsive Navigation
-- Hero Banner
+- Animated Hero Section
 - Infinite Brand Marquee
 - New Arrivals
 - Top Selling
 - Browse by Dress Style
-- Newsletter
 - Customer Reviews
+- Newsletter
 
 ### 🛒 Product
-
-- Vertical Image Gallery
-- Color Selection
-- Size Selection
+- Product Gallery
+- Vertical Image Slider
+- Color & Size Selection
 - Quantity Controller
-- Add to Cart UI
-- Review Section
+- Add to Cart Interface
+- Customer Reviews
 
-### 🎨 Animations
-
-- GSAP Timelines
+### 🎨 Animation
+- GSAP Timeline
 - ScrollTrigger
-- Entrance Animations
+- Scroll-based Effects
+- Responsive Animations
 - Smooth Page Loading
-- Infinite Marquee
-
-### 📱 Responsive
-
-- Desktop
-- Laptop
-- Tablet
-- Mobile
 
 ---
 
-# 🛠 Tech Stack
+# 🛠️ Tech Stack
 
-| Category | Technologies |
-|-----------|--------------|
-| Frontend | HTML5, CSS3, JavaScript (ES6) |
+| Layer | Technologies |
+|-------|--------------|
+| Frontend | HTML5, CSS3, JavaScript (ES6 Modules) |
 | Animation | GSAP, ScrollTrigger |
 | Tools | VS Code, Git, GitHub, Netlify |
 
 ---
 
-# 🗂 Folder Structure
+# 🏗️ Architecture
+
+```text
+HTML
+   │
+CSS (Responsive Layout)
+   │
+JavaScript (ES6 Modules)
+   ├── Components
+   ├── Data
+   ├── Utilities
+   └── Animations
+          │
+      GSAP + ScrollTrigger
+          │
+Modern Responsive User Interface
+```
+
+---
+
+# 📂 Project Structure
 
 ```text
 Shop.co
-│
 ├── assets/
 │   ├── preview/
 │   ├── ProductPage/
 │   ├── DressStyle/
 │   ├── ArrivalCardImages/
-│   └── SellingCardImages/
-│
+│   ├── SellingCardImages/
+│   └── Icons/
 ├── css/
 ├── html/
 ├── js/
 │   ├── homePage/
 │   └── productPage/
-│
 ├── README.md
 └── .gitignore
 ```
 
 ---
 
-# 🚀 Project Highlights
+# 📈 Highlights
 
-- Modular JavaScript Architecture
-- Reusable Components
-- Clean Folder Structure
-- Responsive UI
-- Smooth GSAP Animations
-- Separate Product Page
-- Optimized Asset Management
-- Beginner-Friendly Codebase
+- ✅ Modular ES6 Architecture
+- ✅ Clean Folder Structure
+- ✅ Reusable Components
+- ✅ Responsive Layout
+- ✅ GSAP Animations
+- ✅ Easy to Maintain
+- ✅ Portfolio Ready
 
 ---
 
-# 🧠 What I Learned
+# ⚡ What I Learned
 
-- Semantic HTML
+- Semantic HTML5
 - Modern CSS
-- Flexbox & Grid
+- Flexbox & CSS Grid
 - Responsive Design
-- ES6 Modules
 - DOM Manipulation
-- Component-based Development
-- GSAP & ScrollTrigger
-- Git & GitHub Workflow
+- ES6 Modules
+- Component-Based Development
+- GSAP Timelines
+- ScrollTrigger
+- Git & GitHub
 - Netlify Deployment
 
 ---
 
-# ⚡ Challenges Solved
+# 🎯 Challenges
 
-- Organizing a large frontend project
-- Creating reusable JavaScript modules
-- Building responsive layouts
-- Integrating GSAP without breaking responsiveness
-- Managing scalable project structure
+- Organizing a scalable frontend structure
+- Building reusable JavaScript modules
+- Keeping animations responsive
+- Managing assets efficiently
+- Creating a premium shopping UI
 
 ---
 
@@ -198,19 +197,18 @@ Shop.co
 - Shopping Cart
 - Wishlist
 - Search & Filters
-- Backend APIs
+- User Profiles
+- Spring Boot Backend
+- REST APIs
 - MySQL Database
 - Payment Gateway
 - Admin Dashboard
-- Order Management
 
 ---
 
-# 🎯 Roadmap
+# 🛣️ Future Roadmap
 
-This project completes my frontend learning phase.
-
-Next technologies:
+The next step in my journey is learning:
 
 - Java
 - JDBC
@@ -220,9 +218,7 @@ Next technologies:
 - Spring Security
 - JWT Authentication
 
-Future goal:
-
-> Rebuild Shop.co as a complete Full Stack E-Commerce Application using **React + Spring Boot + MySQL**.
+🎯 **Final Goal:** Rebuild Shop.co as a production-ready Full Stack E-Commerce application using **React + Spring Boot + MySQL**.
 
 ---
 
@@ -233,21 +229,15 @@ git clone https://github.com/Naman8859/Shop.co.git
 cd Shop.co
 ```
 
-Open:
-
-```text
-html/homePage.html
-```
-
-using **Live Server**.
+Open `html/homePage.html` using **Live Server**.
 
 ---
 
 # 🙌 Acknowledgements
 
-- Figma Community UI Inspiration
+- Figma Community
 - GSAP Documentation
-- Modern E-Commerce Design Trends
+- Modern E-Commerce UI inspiration
 
 ---
 
@@ -264,12 +254,16 @@ using **Live Server**.
 
 # ⭐ Support
 
-If you like this project, consider giving it a **Star ⭐** on GitHub.
+If you enjoyed this project, consider giving it a **Star ⭐**.
 
-It motivates me to keep learning, building and sharing better projects.
+It motivates me to continue learning, improving and building better software.
 
 ---
 
-<p align="center">
-Made with ❤️ by <b>Naman Singh Chauhan</b>
-</p>
+<div align="center">
+
+### Thanks for visiting my repository ❤️
+
+**Made with passion by Naman Singh Chauhan**
+
+</div>
